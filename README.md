@@ -1,4 +1,4 @@
-# simple-passport
+# simple-passport [![build status](https://secure.travis-ci.org/parshap/simple-passport.svg?branch=master)](http://travis-ci.org/parshap/simple-passport)
 
 A minimal implementation of the core [Passport][] interface to allow
 usage of [Passport strategy modules][].
