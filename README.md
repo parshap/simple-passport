@@ -44,7 +44,7 @@ up to the application to perform the necessary logic in the callback
 
 ### Example
 
-```
+```js
 var passport = require("simple-passport");
 var BasicStrategy = require("passport-http").BasicStrategy;
 var http = require("http");
@@ -70,7 +70,7 @@ http.createServer(function(req, res) {
 
 ## API
 
-```
+```js
 var passport = require("simple-passport");
 ```
 
