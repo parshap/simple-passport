@@ -24,6 +24,7 @@
     "tape": "^4.2.2"
   },
   "dependencies": {
+    "dezalgo": "^1.0.3",
     "object.assign": "^4.0.3"
   }
 }

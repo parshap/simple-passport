@@ -1,5 +1,6 @@
 "use strict";
 
+var dezalgo = require("dezalgo");
 var assign = require("object.assign/polyfill")();
 
 var SimplePassport = {
@@ -9,6 +10,7 @@ var SimplePassport = {
       options = null;
     }
 
+    callback = dezalgo(callback);
     strategy = Object.create(strategy);
     assign(strategy, {
       success: callback.bind(null, null), // callback(null, user)
