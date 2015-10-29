@@ -1,0 +1,29 @@
+{
+  "name": "simple-passport",
+  "version": "0.0.0",
+  "description": "Minimal implementation of the PassportJS interface",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parshap/simple-passport.git"
+  },
+  "keywords": [
+    "passport",
+    "auth"
+  ],
+  "author": "Parsha Pourkhomami",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/parshap/simple-passport/issues"
+  },
+  "homepage": "https://github.com/parshap/simple-passport#readme",
+  "devDependencies": {
+    "tape": "^4.2.2"
+  },
+  "dependencies": {
+    "object.assign": "^4.0.3"
+  }
+}
