@@ -1,6 +1,6 @@
 {
   "name": "simple-passport",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Minimal implementation of the PassportJS interface",
   "main": "index.js",
   "scripts": {
